@@ -1,0 +1,44 @@
+:root{
+    --color-1: #000000;
+    --color-2: #FFFFFF;
+    --color-3: #5F5A5A;
+    --color-4: #EC441E;
+    --color-5: hsla(251, 33%, 22%, 0.300);
+    --color-6: #791cbf;
+    --color-7: hsla(251, 33%, 22%, 0.500);
+    --color-8: hsla(250, 33%, 22%, 0.250);
+    --color-9: #333333;
+    --color-10: hsla(0, 0%, 100%, 0.200);
+    --color-11: #0092FC;
+    --color-12: hsla(0, 5%, 39%, 0.500);
+    --color-13: hsla(0, 5%, 39%, 0.050);
+    --color-14: #706D6D;
+    --color-15: #91B5FD;
+    --color-16: #D1D0FE;
+    --color-17: #E4FFEA;
+    --color-18: #E5D8FF;
+    --color-19: #EDE9FF;
+    --color-20: #FFECEC;
+    --color-21: #FFF5D7;
+
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(/storage/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(/storage/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url(/storage/fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url(/storage/fonts/DMSans-Medium.ttf);
+}
