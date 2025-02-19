@@ -239,6 +239,8 @@ main{
     justify-content: space-between;
     padding: 8px;
     background-color: var(--color-12);
+    border-radius: 15px;
+    backdrop-filter: blur(24px);
 }
 
 .data{
@@ -250,11 +252,13 @@ main{
     color: var(--color-2);
     font-family: "Inter-SemiBold";
     font-size: 12px;
+    padding-bottom: 6px;
 }
 
 .place{
     display: flex;
     flex-direction: row;
+    padding-bottom: 6px;
 }
 
 .place img{
@@ -288,6 +292,7 @@ main{
 .data_price{
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
 }
 
 .price{
@@ -305,7 +310,7 @@ main{
     width: 339px;
     height: 186px;
     border-radius: 15px;
-    background-image: url(/storage/img/Sleep_Token-Band.jpg);
+    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
     background-size: cover;
     background-position: 50%;
 }
@@ -324,6 +329,7 @@ main{
     padding-right: 7px;
     padding-bottom: 8px;
     white-space: nowrap;
+
 }
 
 .info_2{
@@ -332,6 +338,9 @@ main{
     justify-content: space-between;
     padding: 8px;
     background-color: var(--color-12);
+    border-radius: 15px;
+    backdrop-filter: blur(24px);
+
 }
 
 .data_2{
@@ -391,6 +400,104 @@ main{
 }
 
 .start_2{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+.container_information_3{
+    width: 339px;
+    height: 186px;
+    border-radius: 15px;
+    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.concert_3{
+    width: 332px;
+    height: 186px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    scroll-snap-align: start;
+    padding-top: 88px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+
+}
+
+.info_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: var(--color-12);
+    border-radius: 15px;
+    backdrop-filter: blur(24px);
+
+}
+
+.data_3{
+    width: 184px;
+    height: 57px;
+
+}
+
+.band_3{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+}
+
+.place_3{
+    display: flex;
+    flex-direction: row;
+}
+
+.place_3 img{
+    width: 10px;
+    height: 12px;
+}
+
+.place_3 p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+
+}
+
+.date_3{
+    display: flex;
+    flex-direction: row;
+}
+
+.date_3 img{
+    width: 10px;
+    height: 12px;
+}
+
+.date_3 p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+.data_price_3{
+    display: flex;
+    flex-direction: column;
+}
+
+.data_price_3{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 16px;
+}
+
+.start_3{
     font-family: "Inter-Regular";
     font-size: 12px;
 }
