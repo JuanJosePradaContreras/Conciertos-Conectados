@@ -177,6 +177,225 @@ main{
     white-space: nowrap;
   }
 
+.see_all_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.subtittle{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    color: var(--color-1);
+}
+
+.see_all{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.container_event{
+    width: 346px;
+    height: 186px; 
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll; 
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+
+}
+
+.container_information{
+    width: 339px;
+    height: 186px;
+    border-radius: 15px;
+    background-image: url(/storage/img/Sleep_Token-Band.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.concert_1{
+    width: 332px;
+    height: 186px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    scroll-snap-align: start;
+    padding-top: 88px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: var(--color-12);
+}
+
+.data{
+    width: 184px;
+    height: 57px;
+}
+
+.band{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+}
+
+.place{
+    display: flex;
+    flex-direction: row;
+}
+
+.place img{
+    width: 10px;
+    height: 12px;
+}
+
+.place p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+}
+
+.date img{
+    width: 10px;
+    height: 12px;
+}
+
+.date p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+.data_price{
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 16px;
+}
+
+.start{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+.container_information_2{
+    width: 339px;
+    height: 186px;
+    border-radius: 15px;
+    background-image: url(/storage/img/Sleep_Token-Band.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.concert_2{
+    width: 332px;
+    height: 186px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    scroll-snap-align: start;
+    padding-top: 88px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+}
+
+.info_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: var(--color-12);
+}
+
+.data_2{
+    width: 184px;
+    height: 57px;
+
+}
+
+.band_2{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 12px;
+}
+
+.place_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.place_2 img{
+    width: 10px;
+    height: 12px;
+}
+
+.place_2 p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+
+}
+
+.date_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.date_2 img{
+    width: 10px;
+    height: 12px;
+}
+
+.date_2 p{
+    color: var(--color-2);
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+.data_price_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.data_price_2{
+    color: var(--color-2);
+    font-family: "Inter-SemiBold";
+    font-size: 16px;
+}
+
+.start_2{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+}
+
+
 
 
 
