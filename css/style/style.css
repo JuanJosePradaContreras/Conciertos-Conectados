@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid tomato;
 }
+
+
 
 header{
     padding-top: 43px;
@@ -183,6 +184,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding-top: 12px;
+    
 }
 
 .subtittle{
@@ -195,6 +197,11 @@ main{
     font-family: "Inter-Regular";
     font-size: 12px;
     text-decoration: none;
+    color: var(--color-9);
+}
+
+.see_all a {
+    text-decoration: none;
 }
 
 .container_event{
@@ -205,6 +212,7 @@ main{
     overflow-x: scroll; 
     scroll-snap-type: x mandatory;
     gap: 10px;
+    padding-bottom: 15px;
 
 }
 
@@ -217,6 +225,22 @@ main{
     background-position: 50%;
 }
 
+.container_information_2{
+    width: 339px;
+    height: 186px;
+    border-radius: 15px;
+    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.container_information_3{
+    width: 339px;
+    height: 186px;
+    border-radius: 15px;
+    background-image: url(/storage/img/Ghost-Band.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
 .concert_1{
     width: 332px;
     height: 186px;
@@ -306,14 +330,7 @@ main{
     font-size: 12px;
 }
 
-.container_information_2{
-    width: 339px;
-    height: 186px;
-    border-radius: 15px;
-    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
-    background-size: cover;
-    background-position: 50%;
-}
+
 
 .concert_2{
     width: 332px;
@@ -404,14 +421,7 @@ main{
     font-size: 12px;
 }
 
-.container_information_3{
-    width: 339px;
-    height: 186px;
-    border-radius: 15px;
-    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
-    background-size: cover;
-    background-position: 50%;
-}
+
 
 .concert_3{
     width: 332px;
@@ -500,6 +510,345 @@ main{
 .start_3{
     font-family: "Inter-Regular";
     font-size: 12px;
+}
+
+.events_near{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.subtittle_2{
+    font-family: "Inter-SemiBold";
+    font-size: 14px;
+    color: var(--color-1);
+}
+
+.see_all_2{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color-9);
+}
+
+.see_all_2 a{
+    text-decoration: none;
+}
+
+.events_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.event_1 a{
+    text-decoration: none;
+}
+
+.first_event{
+    width: 166px;
+    height: 203px;
+    border-radius: 15px;
+    box-shadow: 10px;
+    background-color: var(--color-2);
+}
+
+.mini_1{
+    width: 150px;
+    height: 102px;
+    padding: 9px;
+}
+.mini_1 img{
+    width: 150px;
+    height: 102px;
+    border-radius: 10px;
+}
+
+.add_info_1{
+}
+
+.info_eve{
+    text-decoration: none;
+    padding-top: 15px;
+    width: 121px;
+    height: 73px;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 33px;
+    padding-bottom: 9px;
+}
+
+.tittle_eve_1{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-1);
+    text-decoration: none;
+    width: 121px;
+}
+
+.place_eve_1{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.place_eve_1 img{
+    width: 9px;
+    height: 11px;
+}
+
+.place_eve_1 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_1{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.date_eve_1 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_1 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_1{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.prices_eve_1 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_1 p{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.event_2 a{
+    text-decoration: none;
+}
+
+.second_event{
+    width: 166px;
+    height: 203px;
+    border-radius: 15px;
+    box-shadow: 2px;
+}
+
+.mini_2{
+    width: 150px;
+    height: 102px;
+    padding: 9px;
+}
+.mini_2 img{
+    width: 150px;
+    height: 102px;
+    border-radius: 10px;
+}
+
+.add_info_2{
+}
+
+.info_eve_2{
+    text-decoration: none;
+    padding-top: 15px;
+    width: 121px;
+    height: 73px;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 33px;
+    padding-bottom: 9px;
+}
+
+.tittle_eve_2{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-1);
+    text-decoration: none;
+    width: 121px;
+}
+
+.place_eve_2{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.place_eve_2 img{
+    width: 9px;
+    height: 11px;
+}
+
+.place_eve_2 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_2{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.date_eve_2 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_2 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_2{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.prices_eve_2 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_2 p{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-4);
+    text-decoration: none;
+}
+
+.events_2{
+    padding-top: 10px;
+}
+
+.event_3 a{
+    text-decoration: none;
+}
+
+.third_event{
+    width: 166px;
+    height: 203px;
+    border-radius: 15px;
+    box-shadow: 2px;
+}
+
+.mini_3{
+    width: 150px;
+    height: 102px;
+    padding: 9px;
+}
+.mini_3 img{
+    width: 150px;
+    height: 102px;
+    border-radius: 10px;
+}
+
+.add_info_3{
+}
+
+.info_eve_3{
+    text-decoration: none;
+    padding-top: 15px;
+    width: 121px;
+    height: 73px;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 33px;
+    padding-bottom: 9px;
+}
+
+.tittle_eve_3{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-1);
+    text-decoration: none;
+    width: 121px;
+}
+
+.place_eve_3{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.place_eve_3 img{
+    width: 9px;
+    height: 11px;
+}
+
+.place_eve_3 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_3{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.date_eve_3 p{
+    color: var(--color-1);
+    font-family: "Inter-Regular";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.date_eve_3 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_3{
+    display: flex;
+    flex-direction: row;
+    width: 121px;
+    padding-top: 2px;
+}
+
+.prices_eve_3 img{
+    width: 9px;
+    height: 11px;
+}
+
+.prices_eve_3 p{
+    font-family: "Inter-SemiBold";
+    font-size: 10px;
+    color: var(--color-4);
+    text-decoration: none;
 }
 
 
