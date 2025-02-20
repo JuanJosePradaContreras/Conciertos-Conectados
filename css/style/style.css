@@ -218,6 +218,10 @@ main{
 
 }
 
+.container_event a{
+    text-decoration: none;
+}
+
 .container_information{
     width: 339px;
     height: 186px;
