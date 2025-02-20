@@ -13,7 +13,7 @@ body{
 .header{
     width: 400px;
     height: 316px;
-    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
+    background-image: url(../storage/img/Tim_Lindenman-Band.jpg);
     background-position: 50%;
 }
 
