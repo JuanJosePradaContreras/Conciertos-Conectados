@@ -1,286 +1,185 @@
 @import url(/css/variable.css);
 
-@media (max-width: 450px){
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.arrow{
-    width: 34px;
-    height: 34px;
-    top: 35px;
-    left: 22px;
-    position: absolute;
+body{
+    background-color: var(--color-13);
 }
 
-.Front{
-    width: 390px;
+.header{
+    width: 400px;
     height: 316px;
-    position: absolute;
+    background-image: url(/storage/img/Sleep_Token-Band.jpg);
+    background-position: 50%;
 }
 
-.Front img{
-    width: 390px;
-    height: 316px;
+.header img{
+    padding-left: 10px;
+    padding-top: 10px;
 }
-
 
 .info_concert{
     width: 346px;
-    height: 140px;
-    gap: 16px;
-    top: 246px;
+    height: 156px;
+    background-color: var(--color-2);
+    position: relative;
+    top: -60px;
     left: 22px;
-    right: 22px;
-    border-radius: 14px 14px 0px 0px;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
 }
-
 
 .concert{
     width: 224px;
     height: 59px;
-    display: flex;
-    gap: 6px;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-top: 18.5px;
+    position: relative;
+    top: 26.5px;
+    left: 20px;
 }
 
 .concert p{
-        width: 214px;
-        height: 17px;
-        font-size: 14px;
-        font-family: "Inter-SemiBold";    
+    font-family: "Inter-Semibold";
+    font-size: 14px;
+}
+
+.concert span{
+    font-family: "Inter-Semibold";
+    color: var(--color-6);
 }
 
 .place{
-    width: 214px;
-    height: 15px;
     display: flex;
-    gap: 8px;
+    flex-direction: row;
+    padding-top: 5px;
 }
-
-.place img{
-        width: 10px;
-        height: 12px;
-    }
 
 .place p{
-        width: 206px;
-        height: 15px;
-        font-size: 12px;
-        font-family: "Inter-Regular";
-    }
-
-
-.date{
-    width: 128px;
-    height: 15px;
-    display: flex;
-    gap: 8px;
+    font-family: "Inter-Regular";
+    font-size: 12px;
 }
 
-.date img{
-    width: 11px;
-    height: 12px;
+.date {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
 }
 
 .date p{
-    width: 109px;
-    height: 15px;
-    font-size: 12px;
     font-family: "Inter-Regular";
+    font-size: 12px;
+    
 }
-
 
 .people{
-    width: 190px;
-    height: 28px;
     display: flex;
-    padding-left: 20px;
-    gap: 8px;
-    padding-top: 25.5px;
+    flex-direction: row;
     align-items: center;
-}
-
-.people img{
-    width: 60px;
-    height: 28px;
+    position: relative;
+    gap: 10px;
+    top: 30px;
+    left: 22px;
 }
 
 .people p{
-    width: 103px;
-    height: 15px;
-    font-size: 12px;
     font-family: "Inter-Regular";
+    font-size: 12px;
 }
-
 
 .big_info{
     width: 346px;
-    height: 133px;
-    top: 93px;
-    left: 44px;
-    right: 20px;
-    gap: 8px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
+    height: 148px;
 }
 
 .big_info h1{
-    width: 77px;
-    height: 17px;
+    font-family: "Inter-Semibold";
     font-size: 14px;
-    font-family: "Inter_18pt-Medium";
+    position: relative;
+    left: 22px;
 }
 
 .big_info p{
-
-}
-
-.section_bigtext{
-    left: 28px;
-}
-
-
-.p_bigtext{
-    width: 350px;
-    height: 108px;
+    font-family: "DmSans-Regular";
     font-size: 12px;
-    color: var(--color-gray);
-    font-family: "DMSans-Regular";
-    text-align: justify;
-}
-
-
-.p_bigtext{
-        width: 320px;
-    
-}
-
-.read_more{
-    display: none;
-}
-
-label{
-    color: var(--color-blue);
-    cursor: pointer;
-}
-
-.modal-overlay{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-}
-
-.maps{
-    width: 346px;
-    height: 241px;
-    top: 100px;
-    bottom: 28px;
-    left: 22px;
-    right: 22px;
-    gap: 12px;
-    display: flex;
     position: relative;
-    flex-direction: column;
-    justify-content: center;
+    left: 22px;
 }
 
-.maps h1{
-    width: 150px;
-    height: 17px;
+.big_info label{
+    color: var(--color-11);
+}
+
+.Maps{
+    position: relative;
+    left: 22px;
+}
+
+.Maps h1{
+    font-family: "Inter-Semibold";
     font-size: 14px;
-    font-family: "Inter_18pt-Medium";
 }
 
-.maps img{
+.div_map img{
     width: 346px;
     height: 212px;
-    display: flex;
-    justify-content: center;
-    left: 22px;
-    right: 22px;
-    
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.233);
 }
 
-.foot{
+footer{
     width: 390px;
     height: 66px;
-    background-color: #FFFFFF;
-    position: fixed;
-    box-shadow: 0px 0px 9px 14px rgba(0, 0, 0, 0.1);
-    top: 91%;
+    background-color: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+    gap: 221px;
 }
 
 .price{
-    width: 102px;
-    height: 35px;
-    padding-top: 16px;
-    padding-left: 22px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 10px;
+    left: 22px;
+}
+
+.price p{
+    font-family: "Inter-Regular";
+    font-size: 14px;
+
 }
 
 .price h1{
-    width: 102px;
-    height: 19px;
+    font-family: "Inter-Semibold";
     font-size: 16px;
+}
+
+.buy a{
+    text-decoration: none;
     font-family: "Inter-Regular";
+    font-size: 14px;
+    color: var(--color-2);
 }
 
-p{
-    width: 48px;
-    height: 12px;
-    font-size: 10px;
-    font-family: "Inter-SemiBold";
-}
-
-
-.buy{
+.buttom{
     width: 110px;
     height: 34px;
-    position: absolute;
-    top: 16px;
-    left: 300px;
-}
-
-.buttom {
-    width: 110px;
-    height: 34px;    
-    border-radius: 20px;   
+    background-color: var(--color-6);
+    position: relative;
+    top: 15px;
+    right: 28px;
+    border-radius: 20px;
     border: none;
-    color: #FFFFFF;
-    background-color: var(--color-purple);
-    font-family: "Inter_18pt-Medium";
-    margin-left: -40px;
-}
-
-.buttom a{
-    text-decoration: none;
-    color: #FFFFFF;
-}
     
-.footer_buy {
-    width: 390px;
-    height: 66px;
-    background-color: white;
-    position: fixed;
-    box-shadow: 0px 0px 9px 14px rgba(0,0,0,0.1);
 }
 
-}
+
+
+
