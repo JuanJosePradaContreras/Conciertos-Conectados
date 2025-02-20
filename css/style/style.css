@@ -222,7 +222,7 @@ main{
     width: 339px;
     height: 186px;
     border-radius: 15px;
-    background-image: url(/storage/img/Sleep_Token-Band.jpg);
+    background-image: url(../storage/img/Sleep_Token-Band.jpg);
     background-size: cover;
     background-position: 50%;
 }
@@ -231,7 +231,7 @@ main{
     width: 339px;
     height: 186px;
     border-radius: 15px;
-    background-image: url(/storage/img/Tim_Lindenman-Band.jpg);
+    background-image: url(../storage/img/Tim_Lindenman-Band.jpg);
     background-size: cover;
     background-position: 50%;
 }
@@ -239,7 +239,7 @@ main{
     width: 339px;
     height: 186px;
     border-radius: 15px;
-    background-image: url(/storage/img/Ghost-Band.jpg);
+    background-image: url(../storage/img/Ghost-Band.jpg);
     background-size: cover;
     background-position: 50%;
 }
