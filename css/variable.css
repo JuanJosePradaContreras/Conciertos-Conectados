@@ -42,3 +42,8 @@
     font-family: "DMSans-Medium";
     src: url(../storage/fonts/DMSans-Medium.ttf);
 }
+
+@font-face {
+    font-family: "Code-Bar";
+    src: url(../storage/fonts/LibreBarcode39-Regular.ttf);
+}

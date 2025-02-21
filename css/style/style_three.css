@@ -1,0 +1,162 @@
+@import url(../variable.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top, var(--color-16), var(--color-15));
+    height: 100vh;
+    width: 100vh;
+    
+}
+
+.icons{
+    width: 343px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 22px;
+}
+
+.container_ticket{
+    width: 343px;
+    height: 662.14px;
+    background-color: var(--color-2);
+    border-radius: 20px;
+    position: relative;
+    top: 123px;
+    left: 22px;
+    right: 25px;
+
+}
+
+.img_event{
+    width: 308px;
+    height: 176px;
+    border-radius: 14px;
+}
+
+.img_event img{
+    width: 308px;
+    height: 176px;
+    border-radius: 14px;
+    position: relative;
+    top: 18px;
+    left: 17.5px;
+    right: 17.5px;
+
+}
+
+.tittle{
+    width: 292px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top: 17px;
+    left: 18px;
+    right: 33.5px;
+    padding-top: 10px;
+    
+}
+
+.tittle h1{
+    font-family: "Inter-Semibold";
+    font-size: 18px;
+}
+
+.tittle p{
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    gap: 5px;
+}
+
+.line{
+    display: block;
+    border-top: 3px solid var(--color-13);
+    width: 290px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    right: 35px;
+
+}
+
+.ticket_info{
+    width: 282px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 18px;
+    right: 43px;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.info p{
+    font-family: "Inter-Medium";
+    font-size: 12px;
+}
+
+.info h1{
+    font-family: "Inter-Semibold";
+    font-size: 14px;
+}
+
+.dot_line{
+    border-top: 3px dashed var(--color-13);
+    margin: 20px 0;
+    width: 345.5;
+    position: relative;
+    top: 39px;
+    left: 22px;
+    right: 24.5px;
+}
+
+.code_bar{
+    width: 270px;
+    height: 71px;
+    position: relative;
+    left: 35px;
+    right: 35px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.code_bar img{
+    width: 270px;
+    height: 71px;
+}
+
+
+.circle{
+    width: 343.5px;
+    height: 38.88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+    top: -95px;
+    left: 22px;
+}
+
+.circle img{
+    width: 20px;
+    height: 38.8px;
+}
+
